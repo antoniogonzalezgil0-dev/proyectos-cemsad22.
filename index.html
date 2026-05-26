@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Actividades CEMSAD 22 - Antonio González Gil</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdn.jsdelivr.net/npm/font-awesome@4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primario: '#005792',
+                        secundario: '#F29100',
+                        claro: '#F8F9FA',
+                        oscuro: '#212529',
+                    },
+                    fontFamily: {
+                        sans: ['Arial', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        .text-shadow {
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+        }
+        .sombra-caja {
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+        .borde-redondo {
+            border-radius: 16px;
+        }
+    </style>
+</head>
+<body class="bg-claro font-sans text-oscuro">
+
+    <!-- ENCABEZADO -->
+    <header class="bg-primario text-white py-8 px-4 md:px-12 text-center">
+        <h1 class="text-[clamp(1.8rem,4vw,3.2rem)] font-bold text-shadow mb-2">Colegio de Bachilleres del Estado de México</h1>
+        <h2 class="text-[clamp(1.2rem,2.5vw,2rem)] font-light">CEMSAD 22 Enrhavi</h2>
+        <p class="mt-4 text-lg">Proyectos Escolares | Ciclo 2025-2026</p>
+    </header>
+
+    <!-- NAVEGACIÓN -->
+    <nav class="bg-white sticky top-0 z-50 sombra-caja py-3 px-4 md:px-12">
+        <ul class="flex flex-wrap justify-center gap-6 md:gap-10 font-medium">
+            <li><a href="#inicio" class="text-primario hover:text-secundario transition">Inicio</a></li>
+            <li><a href="#meta" class="text-primario hover:text-secundario transition">Meta en Movimiento</a></li>
+            <li><a href="#soy" class="text-primario hover:text-secundario transition">Soy lo Que Visto</a></li>
+            <li><a href="#revista" class="text-primario hover:text-secundario transition">Revista Escolar</a></li>
+            <li><a href="#mejoras" class="text-primario hover:text-secundario transition">Mejoras</a></li>
+        </ul>
+    </nav>
+
+    <!-- CONTENIDO PRINCIPAL -->
+    <main class="px-4 md:px-12 py-8 max-w-7xl mx-auto">
+
+        <!-- SECCIÓN INICIO -->
+        <section id="inicio" class="mb-16">
+            <div class="bg-white borde-redondo sombra-caja p-6 md:p-10 text-center">
+                <h3 class="text-[clamp(1.5rem,3vw,2.2rem)] font-bold text-primario mb-4">Bienvenidos a nuestro trabajo</h3>
+                <p class="text-lg leading-relaxed">
+                    Aquí presentamos todos los proyectos realizados en el semestre, aplicando conocimientos de administración, cultura, valores y trabajo en equipo. 
+                    Todo el material cumple con los criterios de evaluación: contenido claro, estructura organizada, redacción coherente y diseño atractivo.
+                </p>
+                <div class="mt-6 text-left max-w-2xl mx-auto">
+                    <p class="font-semibold">👤 Alumno: Antonio González Gil</p>
+                    <p class="font-semibold">🎓 Grupo: 602</p>
+                    <p class="font-semibold">📅 Periodo: 25 de mayo al 5 de junio</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROYECTO 1: META EN MOVIMIENTO -->
+        <section id="meta" class="mb-16">
+            <div class="bg-white borde-redondo sombra-caja p-6 md:p-10">
+                <h3 class="text-[clamp(1.5rem,3vw,2.2rem)] font-bold text-secundario mb-6 flex items-center gap-3">
+                    <i class="fa fa-running text-[2rem]"></i> Meta en Movimiento
+                </h3>
+
+                <p class="mb-6 text-lg">Proyecto de organización y administración de una carrera recreativa, aplicando las 4 etapas del proceso administrativo.</p>
+
+                <div class="grid md:grid-cols-2 gap-8">
+                    <div class="space-y-4">
+                        <h4 class="font-bold text-xl text-primario">📋 Etapas realizadas:</h4>
+                        <ul class="list-disc list-inside space-y-2">
+                            <li><strong>Planeación:</strong> Definición de ruta, materiales, patrocinadores y tiempos.</li>
+                            <li><strong>Organización:</strong> Creación de brigadas: seguridad, logística, hidratación, limpieza.</li>
+                            <li><strong>Dirección:</strong> Ejecución el día del evento: montaje, salida, recorrido, llegada.</li>
+                            <li><strong>Control:</strong> Premiación, evaluación de resultados e incidentes.</li>
+                        </ul>
+                    </div>
+                    <div class="bg-claro p-5 borde-redondo">
+                        <h4 class="font-bold text-xl text-primario mb-3">💡 Aprendizajes:</h4>
+                        <p>Importancia de planificar, asignar funciones claras y trabajar en equipo. Descubrimos que cada parte es fundamental para el éxito total.</p>
+                    </div>
+                </div>
+
+                <div class="mt-6">
+                    <h4 class="font-bold text-xl text-primario mb-2">🔗 Video del proyecto:</h4>
+                    <a href="https://www.youtube.com/watch?v=ra-IVyy67o" target="_blank" class="text-blue-600 hover:underline flex items-center gap-2">
+                        <i class="fa fa-youtube-play text-xl"></i> Ver grabación completa del evento
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROYECTO 2: SOY LO QUE VISTO -->
+        <section id="soy" class="mb-16">
+            <div class="bg-white borde-redondo sombra-caja p-6 md:p-10">
+                <h3 class="text-[clamp(1.5rem,3vw,2.2rem)] font-bold text-secundario mb-6 flex items-center gap-3">
+                    <i class="fa fa-user-circle text-[2rem]"></i> Soy lo Que Visto
+                </h3>
+
+                <p class="mb-6 text-lg">Proyecto enfocado en identidad cultural, expresión personal y valores: lo que vestimos habla de quiénes somos y de nuestras raíces.</p>
+
+                <div class="grid md:grid-cols-3 gap-6">
+                    <div class="p-4 bg-claro borde-redondo">
+                        <h4 class="font-bold text-lg text-primario mb-2">🔍 Investigación</h4>
+                        <p>Conocimos trajes típicos, tradiciones y significado de la vestimenta en nuestra región.</p>
+                    </div>
+                    <div class="p-4 bg-claro borde-redondo">
+                        <h4 class="font-bold text-lg text-primario mb-2">🗣️ Reflexión</h4>
+                        <p>Debatimos sobre respeto, diversidad y cómo la imagen personal refleja educación y valores.</p>
+                    </div>
+                    <div class="p-4 bg-claro borde-redondo">
+                        <h4 class="font-bold text-lg text-primario mb-2">🎨 Exposición</h4>
+                        <p>Elaboramos carteles, muestras y presentaciones para compartir lo aprendido.</p>
+                    </div>
+                </div>
+
+                <div class="mt-8">
+                    <h4 class="font-bold text-xl text-primario mb-3">📜 Proceso completo del proyecto:</h4>
+                    <ol class="list-decimal list-inside space-y-2 pl-2">
+                        <li><strong>Día 1:</strong> Presentación del tema: "La ropa como identidad". Lluvia de ideas y definición de objetivos.</li>
+                        <li><strong>Día 2-3:</strong> Investigación en fuentes bibliográficas y digitales sobre vestimenta tradicional y significado cultural.</li>
+                        <li><strong>Día 4-5:</strong> Análisis: ¿Cómo nos vestimos hoy? ¿Qué significa? Relación con valores y normas sociales.</li>
+                        <li><strong>Día 6-7:</strong> Organización de información, diseño de carteles y materiales de apoyo.</li>
+                        <li><strong>Día 8-9:</strong> Preparación de exposiciones y ensayos grupales.</li>
+                        <li><strong>Día 10:</strong> Presentación final ante el grupo y docentes, intercambio de opiniones.</li>
+                        <li><strong>Conclusión:</strong> Entendimos que vestirse bien es respetarse uno mismo y respetar a los demás.</li>
+                    </ol>
+                </div>
+            </div>
+        </section>
+
+        <!-- REVISTA ESCOLAR -->
+        <section id="revista" class="mb-16">
+            <div class="bg-white borde-redondo sombra-caja p-6 md:p-10">
+                <h3 class="text-[clamp(1.5rem,3vw,2.2rem)] font-bold text-secundario mb-6 flex items-center gap-3">
+                    <i class="fa fa-book text-[2rem]"></i> Revista: Actividades de la Escuela
+                </h3>
+
+                <p class="mb-4 text-lg">Publicación elaborada siguiendo estrictamente los criterios de evaluación:</p>
+                <ul class="grid md:grid-cols-2 gap-4 mb-6">
+                    <li class="flex items-start gap-3"><i class="fa fa-check-circle text-green-600 mt-1"></i> <div><strong>Contenido:</strong> Claro, relevante y bien desarrollado sobre actividades escolares.</div></li>
+                    <li class="flex items-start gap-3"><i class="fa fa-check-circle text-green-600 mt-1"></i> <div><strong>Estructura:</strong> Secciones variadas y organizadas (editorial, proyectos, opiniones, mejoras).</div></li>
+                    <li class="flex items-start gap-3"><i class="fa fa-check-circle text-green-600 mt-1"></i> <div><strong>Redacción:</strong> Textos coherentes, claros y bien redactados.</div></li>
+                    <li class="flex items-start gap-3"><i class="fa fa-check-circle text-green-600 mt-1"></i> <div><strong>Diseño:</strong> Atractivo, creativo y organizado con detalles visuales.</div></li>
+                </ul>
+
+                <div class="bg-claro p-5 borde-redondo">
+                    <h4 class="font-bold text-xl text-primario mb-2">📄 Secciones incluidas:</h4>
+                    <p>Portada, Editorial, Reportajes de proyectos, Entrevistas, Opiniones, Mejoras al protocolo y Créditos finales.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- MEJORAS Y PROTOCOLO -->
+        <section id="mejoras" class="mb-16">
+            <div class="bg-white borde-redondo sombra-caja p-6 md:p-10">
+                <h3 class="text-[clamp(1.5rem,3vw,2.2rem)] font-bold text-secundario mb-6 flex items-center gap-3">
+                    <i class="fa fa-wrench text-[2rem]"></i> Mejoras y Protocolo
+                </h3>
+
+                <p class="mb-6 text-lg">Propuestas de cambio y mejora para futuras ediciones, tal como lo solicita la evaluación:</p>
+
+                <div class="space-y-5">
+                    <div>
+                        <h4 class="font-bold text-lg text-primario mb-1">✅ Para Meta en Movimiento:</h4>
+                        <ul class="list-disc list-inside pl-2">
+                            <li>Agregar puesto fijo de primeros auxilios.</li>
+                            <li>Mejorar comunicación entre brigadas (radios o aplicaciones).</li>
+                            <li>Anticipar entrega de materiales a 5 días antes del evento.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-lg text-primario mb-1">✅ Para Soy lo Que Visto:</h4>
+                        <ul class="list-disc list-inside pl-2">
+                            <li>Invitar a otros grupos para ampliar la muestra cultural.</li>
+                            <li>Incluir videos y material multimedia en las investigaciones.</li>
+                            <li>Organizar un día exclusivo para exposiciones con más tiempo.</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4 class="font-bold text-lg text-primario mb-1">✅ Conclusión del protocolo:</h4>
+                        <p>Se observa corrección y mejora clara en cada proceso. Queda registrado para que futuros grupos sigan creciendo en calidad y organización.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- PIE DE PÁGINA -->
+    <footer class="bg-primario text-white py-6 px-4 text-center">
+        <p>Colegio de Bachilleres del Estado de México | CEMSAD 22 Enrhavi</p>
+        <p class="mt-2">Trabajo publicado en servidor gratuito | Actividad A7</p>
+    </footer>
+
+</body>
+  </html>
+                                                                                                       
